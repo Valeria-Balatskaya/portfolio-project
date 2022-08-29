@@ -18,6 +18,7 @@
     .learn-more {
         display: block;
         margin: 0 auto;
+        max-width: 170px;
     }
     .name {
         text-align: center;
@@ -35,6 +36,13 @@
     .sbh {
         text-align: center;
     }
+    .your-contacts {
+        text-align: center;
+    }
+    .submit-btn {  
+      display: block;
+      margin: 0 auto;
+        }
 }
 .logo {
     max-width: 150px;
@@ -144,7 +152,7 @@ font-size: 16px;
  .fa-instagram:hover {
     background-color: var(--main-color);
  }
- .container {
+ .git-inst {
     max-width: 300px;
     display: flex;
     justify-content: space-evenly;
@@ -279,3 +287,45 @@ font-size: 16px;
  .launches:hover {
     color: #fff;
  }
+ .lnch {
+    margin: 10px 0px;
+ }
+ .see {
+    margin: 40px
+ }
+ label {
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+ }
+ .email-input {
+    width: 100%;
+    margin-bottom: 20px;
+ }
+ .text {
+    width: 100%;
+    margin-bottom: 20px;
+ }
+ .contact-page {
+    max-width: 700px;
+    margin-top: 60px;
+ }
+ .submit-btn {
+        padding: 10px 40px;
+        color: var(--secondary-color);
+        border: 2px solid var(--secondary-color);
+        font-weight: 600;
+        border-radius: 10px;
+        background: #fff;
+ }
+ .submit-btn:hover {
+    color: #fff;
+    background: var(--secondary-color);
+ }
+ .cnt-page {
+    color: #FDF6EC;
+    background: var(--main-color);
+    padding: 40px 0px;
+ } 
