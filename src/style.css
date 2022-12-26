@@ -237,6 +237,7 @@ font-size: 16px;
     font-weight: 500;
     color: var(--main-color);
     margin-top: 30px;
+    text-decoration: underline;
  }
  .language-one {
     text-align: center;
@@ -291,7 +292,7 @@ font-size: 16px;
     margin: 10px 0px;
  }
  .see {
-    margin: 40px
+    margin: 40px 0px;
  }
  label {
     color: var(--main-color);
@@ -329,3 +330,6 @@ font-size: 16px;
     background: var(--main-color);
     padding: 40px 0px;
  } 
+ .col-sm-6 {
+   margin: 10px 0px;
+ }
